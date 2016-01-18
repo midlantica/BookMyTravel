@@ -1,0 +1,36 @@
+<template name="createTravel">
+  <div class="row col-md-6 col-md-offset-3 top-space">
+    <div class="col-md-12 well well-sm">
+      <form action="#" method="post" class="form" id="signup-form" role="form">
+        <div class="error"></div>
+        <input class="form-control" name="name" type="text" required />
+        <input class="form-control" name="agency" required />
+        <input class="form-control" name="seats" type="number" required />
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <input class="form-control" name="startpoint" type="text" required />
+          </div>
+          <div class="col-md-6">
+            <input class="form-control" name="endpoint" type="text" required />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <input class="form-control" name="startdate" type="date" required />
+          </div>
+          <div class="col-md-3">
+            <input class="form-control" name="starttime" type="time" required />
+          </div>
+          <div class="col-md-3">
+            <input class="form-control" name="enddate" type="date" required />
+          </div>
+          <div class="col-md-3">
+            <input class="form-control" name="endtime" type="time" required />
+          </div>
+        </div>
+        <input class="form-control" name="fare" type="number" required />
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Create</button>
+      </form>
+    </div>
+  </div>
+</template>
